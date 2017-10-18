@@ -16,5 +16,13 @@ pipeline {
         echo 'message-2'
       }
     }
+    stage('node-4') {
+      steps {
+        timestamps() {
+          writeFile(encoding: 'utf-8', text: '1', file: '123.txt')
+        }
+        
+      }
+    }
   }
 }
