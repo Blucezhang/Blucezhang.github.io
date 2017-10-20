@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hi') {
       steps {
-        echo 'hello word'
+        echo 'hello word ---Blucezhang.io'
       }
     }
   }
